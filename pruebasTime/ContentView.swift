@@ -11,7 +11,7 @@ struct ContentView: View {
 
     private var timeLabel: some View {
         Text(currentTime, style: .time)
-            .font(.system(size: 30))
+            .font(.system(size: 20))
             .padding()
             .background(Color.black.opacity(0.7))
             .foregroundColor(.white)
